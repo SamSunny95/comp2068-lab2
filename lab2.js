@@ -36,4 +36,4 @@ http.createServer(function (req, res) {
    
 }).listen(3000);
 
-// page runs at http://localhost:3000/tax-calculator.js?subtotal=x
+// page runs at http://localhost:3000/lab2.js?method=divide&x=16&y=4
