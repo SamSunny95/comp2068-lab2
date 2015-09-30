@@ -33,6 +33,9 @@ http.createServer(function (req, res) {
 		res.write('<h1>Calculator (Lab 2)</h1>' + X + ' / ' + Y + ' = ' + (X/Y));
     	res.end();
 	}
+	else
+		res.write('Enter a valid Method');
+    	res.end();
    
 }).listen(3000);
 
